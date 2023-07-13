@@ -1,2 +1,2 @@
 # discord-timestamp
-Generates relative timestamps for Discord.
+Generates timestamps for Discord that display in the user's timezone.
