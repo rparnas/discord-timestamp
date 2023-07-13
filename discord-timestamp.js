@@ -53,7 +53,7 @@ generate_button.onclick = () => {
   let month = rawMonth;
   let date = rawDate;
   let hour = rawTOD == "AM" ? (rawHour == 12 ? 0 : rawHour) : 
-             rawTOD == "PM" ? (rawHour + 12) :
+             rawTOD == "PM" ? (rawHour == 12 ? 12 :  rawHour + 12) :
              Number.NaN;
   let minute = rawMinute;
 
